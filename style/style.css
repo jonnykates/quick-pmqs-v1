@@ -48,11 +48,31 @@ table {
 * {
   box-sizing: border-box; }
 
-body {
-  background-color: #F5F5F5;
+html {
   padding: 40px 0;
+  background-color: #F5F5F5; }
+
+body {
   font-family: "Open Sans", sans-serif;
   color: #333; }
+
+.corbyn-background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url("/img/background-corbyn.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  z-index: -1; }
+
+.cameron-background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url("/img/background-cameron.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  z-index: -2; }
 
 h1 {
   font-size: 70px;
@@ -79,7 +99,8 @@ h1 {
   border: 1px solid #E2E8EE;
   border-radius: 5px;
   padding: 15px;
-  margin: 8px 0; }
+  margin: 8px 0;
+  display: block; }
   .tweet.left {
     float: left; }
     .tweet.left .tweet-msg {
@@ -90,7 +111,7 @@ h1 {
     float: right;
     text-align: right; }
     .tweet.right .tweet-avatar {
-      margin-left: -5px; }
+      float: right; }
     .tweet.right .source-link {
       float: left; }
 
