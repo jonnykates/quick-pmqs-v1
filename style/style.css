@@ -75,9 +75,9 @@ body {
   z-index: -2; }
 
 h1 {
-  font-size: 70px;
-  margin-bottom: 30px; }
+  font-size: 70px; }
   h1.site-title {
+    margin-bottom: 15px;
     color: #000;
     text-align: center;
     font-family: "IM Fell English SC", serif; }
@@ -88,6 +88,17 @@ h1 {
   margin-bottom: 10px;
   line-height: 1.4;
   font-size: 14px; }
+
+.twitter-handles {
+  text-align: center;
+  display: block;
+  font-size: 11px;
+  margin-bottom: 20px; }
+  .twitter-handles a {
+    color: #999;
+    text-decoration: none; }
+    .twitter-handles a:hover {
+      color: #666; }
 
 .content-container {
   max-width: 590px;
