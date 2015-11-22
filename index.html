@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quick PMQs</title>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style/style.css">
-<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
 </head>
 <body ng-app="quickPMQs">
 
@@ -21,6 +21,7 @@
   <span class="twitter-handles"><a href="http://www.twitter.com/QuickPMQs">@QuickPMQs</a> | <a href="http://www.twitter.com/jonnykates">@JonnyKates</a></span>
   <p class="site-intro">Prime Minister's Questions (often abbreviated to PMQs) is a session held in the House of Commons every Wednesday afternoon where the Prime Minister (David Cameron) answers questions from MPs; specifically the Leader of the Opposition (Jeremy Corbyn).</p>
   <p class="site-intro">Quick PMQs offers short summaries of these interactions, attempting to focus on the heart of the issues being discussed by removing political rhetoric or personal attacks.</p>
+
 
   <div ng-repeat="debate in debates | orderBy:'date':true">
     <div class="date-title">
