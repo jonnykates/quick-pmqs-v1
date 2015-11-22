@@ -7,7 +7,7 @@ var cameronAv = 'img/cameron-av.png';
 $scope.debates = [
 
   {
-    date: new Date('2015', '9', '21'),
+    date: '21st October, 2015',
 
     tweets: [
       {
@@ -98,7 +98,7 @@ $scope.debates = [
   },
 
   {
-    date: new Date('2015', '9' ,'28'),
+    date: '28th October, 2015',
 
     tweets: [
       {
