@@ -17,21 +17,26 @@
 
 <div class="content-container" ng-controller="TweetController">
 
+ <a name="thetop"></a>
+
   <h1 class="site-title">Quick PMQs</h1>
   <span class="twitter-handles"><a href="http://www.twitter.com/QuickPMQs">@QuickPMQs</a> | <a href="http://www.twitter.com/jonnykates">@JonnyKates</a></span>
   <p class="site-intro">Prime Minister's Questions (often abbreviated to PMQs) is a session held in the House of Commons every Wednesday afternoon where the Prime Minister (David Cameron) answers questions from MPs; specifically the Leader of the Opposition (Jeremy Corbyn).</p>
   <p class="site-intro">Quick PMQs offers short summaries of these interactions, attempting to focus on the heart of the issues being discussed by removing political rhetoric or personal attacks.</p>
 
-  <select ng-model="debateSelector" ng-options="debate.date for debate in debates">
-  </select>
+  <div class="selector-wrapper">
+    <select class="date-selector" ng-model="debateSelector" ng-options="debate.date for debate in debates">
+      <option value="" style="display: none;">Select a date to get started</option>
+    </select>
+  </div>
 
 
-  <div ng-repeat="debate in debates | orderBy:'date':true | filter:debateSelector.date" style="display:block; height: auto;">
-    <div class="date-title" style="display:block;">
+  <div ng-repeat="debate in debates | orderBy:'date':true | filter:debateSelector.date">
+    <!-- <div class="date-title" style="display:block;">
       <h2>{{ debate.date | date }}</h2>
-    </div>
+    </div> -->
 
-    <div ng-repeat="tweet in debate.tweets" class="tweet {{ tweet.side }}" style="display:block;">
+    <div ng-repeat="tweet in debate.tweets" class="tweet {{ tweet.side }}">
       <div class="tweet-avatar">
         <img src="{{ tweet.avatar }}" class="avatar">
       </div>
@@ -41,6 +46,8 @@
         <p class="tweet-content">{{ tweet.message }}</p>
       </div>
     </div>
+
+    <p class="back-to-top"><a href="#thetop">Back to top</a></p>
   </div>
 
 </div>
