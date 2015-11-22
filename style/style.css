@@ -74,6 +74,12 @@ body {
   background-position: bottom right;
   z-index: -2; }
 
+@media all and (max-width: 830px) {
+  .corbyn-background, .cameron-background {
+    background-image: none; } }
+@media only screen and (max-device-width: 480px) {
+  .corbyn-background, .cameron-background {
+    background-image: none; } }
 h1 {
   font-size: 70px; }
   h1.site-title {

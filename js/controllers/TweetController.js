@@ -11,6 +11,188 @@ $scope.debates = [
   { date: 'Select a date' },
 
   {
+    date: '18th November, 2015',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spnew60',
+        message: 'What is the government\'s latest advice for people travelling to France in the wake of the Paris terrorist attacks?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spmin12',
+        message: 'Full advice is on the Foreign Office website, but we should carry on as normal. One way to defeat terrorism is to show we will not be cowed.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spnew61',
+        message: 'Will you join me in making it clear that the Paris attacks have nothing in common with the 2 million British Muslims in this country?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spmin13',
+        message: 'I completely agree. Their actions are not a reflection of Islam. We need to deconstruct their associations between terrorism and Islam.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spnew62',
+        message: 'Can the PM ensure all countries in the region are clamping down on sources of funding, arms and trade for ISIL?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spmin14',
+        message: 'We should cut off supplies but the region is very unstable so this is challenging. We should also look at military action.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spnew63',
+        message: 'Can you clarify where the necessary extra funding for the security services will come from?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spmin15',
+        message: 'We will be increasing the number of security service personnel and safeguarding the counter-terrorism budget.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spnew64',
+        message: 'That doesn\'t answer my question. What about the planned police cuts? Could these jepordise our safety?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spmin16',
+        message: 'The shadow Home Secretary has said that 10% cuts for the police is doable. Are you disagreeing with your colleague?'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spnew65',
+        message: 'Moral in the police is so low that 1 in 3 are considering leaving. Will you protect policing budgets in next week\'s autumn statement?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spmin17',
+        message: 'Neighbourhood policing numbers are up 3,800 and we\'ve cut bureaucracy to also boost the numbers on the beat.'
+      },
+    ]
+  },
+
+  {
+    date: '4th November, 2015',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spnew61',
+        message: 'Last week I asked the PM 6 times if people would be worse off due to tax credit cuts. He\'s had a week to think about it, can he now answer?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spmin12',
+        message: 'We suffered a defeat in the Lords on tax credits, so we\'ll come forward withnew proposals in the autumn statement.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spnew62',
+        message: 'Tory MP Andrew Percy said last week that changes to tax credits cannot go ahead. What is the PM\'s answer to his friend?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spmin13',
+        message: 'I\'d give the same answer I\'m giving you. We will announce our plans in the autumn statement in three weeks\' time.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spnew65',
+        message: 'An army veteran wrote to me saying he is worried whether his family will be able to get by. Is that how the government treats veterans?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spmin14',
+        message: 'He will benefit from £11k personal allowance plus 30 hours childcare. He may not have a job if you ever got anywhere near power!'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spnew66',
+        message: 'Can the PM guarantee there will be no winter crisis in the NHS this year?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spmin15',
+        message: 'The NHS is benefitting from the £10bn we\'re putting in and I believe it has the resources it needs.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spnew69',
+        message: 'The King\'s Fund doesn\'t think so. They say the NHS cannot continue to maintain standards and balance the books.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spmin16',
+        message: 'The new CEO of the NHS said they needed £8bn, so we\'re giving them £10bn. The stats show care provision is rising.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spnew70',
+        message: 'Since you took office waiting lists are up by a third and many hospitals run in deficit. Can you ensure the public they can rely on the NHS?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spmin17',
+        message: 'Since I became PM we have 16k more docs and nurses and the NHS has improved in many areas thanks to our strong economy.'
+      },
+    ]
+  },
+
+  {
     date: '28th October, 2015',
 
     tweets: [
@@ -189,6 +371,97 @@ $scope.debates = [
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151021/debtext/151021-0001.htm#151021-0001.htm_spmin19',
         message: 'We\'ve helped many disabled people into work. I will look at UN report but often these are not all they are cracked up to be.'
       }
+    ]
+  },
+
+  {
+    date: '14th October, 2015',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spnew59',
+        message: '2,000 people have emailed me in the last 3 days worried about tax credit cuts. Will people be worse off next year?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spmin9',
+        message: 'We\'re introducing the national living wage of £9 per hour. We\'ll also raise the personal allowance to £11k. So many people will benefit.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spnew60',
+        message: 'I can tell you that 3 million families will be worse off. Are you not taking away opportunities from children in low income families?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spmin10',
+        message: 'Since I became PM there are 2 million more in work. All people benefit from a growing econom where wages are rising.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spnew61',
+        message: 'Will you acknowledge that people in work often rely on tax credits? You\'ve given tax breaks to the wealthiest people, worsening inequality.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spmin11',
+        message: 'Tax credits aren\'t working. We say it is better to let people earn more and take less from them in tax. Your figures are wrong.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spnew62',
+        message: 'Does the PM really believe that £450,000 is an affordable price for a new home?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spmin12',
+        message: 'We want £450k to be the upper starter limit in London and want starter homes from £150k. We\'ve also introduced the Help to Buy scheme.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spnew63',
+        message: 'We are not building enough houses though. Local authorities are struggling to access funding for council housing.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spmin13',
+        message: 'We\'ve built more council homes in the last 5 years than Labour built in 13. We will not borrow money to build houses.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spnew66',
+        message: 'Data on secondary breast cancer is not being collected efficiently in hospitals. Can you follow up on a promise made in 2010 on improving this?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spmin14',
+        message: 'I agree. I too met with the campaigners he mentions and relayed our discussions to the Health Secretary. I will write you a full update.'
+      },
     ]
   }
 
