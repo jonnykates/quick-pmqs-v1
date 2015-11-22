@@ -19,7 +19,7 @@ $scope.debates = [
         avatar: corbynAv,
         side: 'left',
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spnew60',
-        message: 'What is the government\'s latest advice for people travelling to France in the wake of the Paris terrorist attacks?'
+        message: 'What is the government\'s latest advice for people traveling to France in the wake of the Paris terrorist attacks?'
       },
       {
         politician: 'David Cameron',
@@ -75,7 +75,7 @@ $scope.debates = [
         avatar: corbynAv,
         side: 'left',
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spnew64',
-        message: 'That doesn\'t answer my question. What about the planned police cuts? Could these jepordise our safety?'
+        message: 'That doesn\'t answer my question. What about the planned police cuts? Could these jeopardise our safety?'
       },
       {
         politician: 'David Cameron',
@@ -117,7 +117,7 @@ $scope.debates = [
         avatar: cameronAv,
         side: 'right',
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spmin12',
-        message: 'We suffered a defeat in the Lords on tax credits, so we\'ll come forward withnew proposals in the autumn statement.'
+        message: 'We suffered a defeat in the Lords on tax credits, so we\'ll come forward with new proposals in the autumn statement.'
       },
       {
         politician: 'Jeremy Corbyn',
@@ -159,7 +159,7 @@ $scope.debates = [
         avatar: cameronAv,
         side: 'right',
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151104/debtext/151104-0001.htm#151104-0001.htm_spmin15',
-        message: 'The NHS is benefitting from the £10bn we\'re putting in and I believe it has the resources it needs.'
+        message: 'The NHS is benefiting from the £10bn we\'re putting in and I believe it has the resources it needs.'
       },
       {
         politician: 'Jeremy Corbyn',
@@ -229,7 +229,7 @@ $scope.debates = [
         avatar: corbynAv,
         side: 'left',
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151028/debtext/151028-0001.htm#151028-0001.htm_spnew69',
-        message: 'I thought you were commited to not cutting tax credits. Will you cut them or not and will people be worse off?'
+        message: 'I thought you were committed to not cutting tax credits. Will you cut them or not and will people be worse off?'
       },
       {
         politician: 'David Cameron',
@@ -243,7 +243,7 @@ $scope.debates = [
         avatar: corbynAv,
         side: 'left',
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151028/debtext/151028-0001.htm#151028-0001.htm_spnew71',
-        message: 'You commited yourself to £12bn of welfare cuts but said tax credits would not be part of that. Can you answer my question?'
+        message: 'You committed yourself to £12bn of welfare cuts but said tax credits would not be part of that. Can you answer my question?'
       },
       {
         politician: 'David Cameron',
@@ -404,7 +404,7 @@ $scope.debates = [
         avatar: cameronAv,
         side: 'right',
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151014/debtext/151014-0001.htm#151014-0001.htm_spmin10',
-        message: 'Since I became PM there are 2 million more in work. All people benefit from a growing econom where wages are rising.'
+        message: 'Since I became PM there are 2 million more in work. All people benefit from a growing economy where wages are rising.'
       },
       {
         politician: 'Jeremy Corbyn',
