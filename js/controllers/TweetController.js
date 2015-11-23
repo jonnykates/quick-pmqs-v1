@@ -89,7 +89,7 @@ $scope.debates = [
         avatar: corbynAv,
         side: 'left',
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151118/debtext/151118-0001.htm#151118-0001.htm_spnew65',
-        message: 'Moral in the police is so low that 1 in 3 are considering leaving. Will you protect policing budgets in next week\'s autumn statement?'
+        message: 'Morale in the police is so low that 1 in 3 are considering leaving. Will you protect policing budgets in next week\'s autumn statement?'
       },
       {
         politician: 'David Cameron',

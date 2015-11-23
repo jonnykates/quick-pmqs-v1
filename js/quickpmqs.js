@@ -1,1 +1,1 @@
-var app = angular.module("quickPMQs", []);
+var app = angular.module("quickPMQs", ['ngRoute']);

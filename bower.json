@@ -1,0 +1,27 @@
+{
+  "name": "Quick PMQs",
+  "authors": [
+    "Jonny Kates <hi@jonnykates.com>"
+  ],
+  "description": "Quick PMQs offers Twitter length summaries of the exchanges between the Prime Minister and the Leader of the Opposition at weekly Prime Minister's Questions",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "Prime Minister's Questions"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.quickpmqs.co.uk",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.8",
+    "angular-route": "~1.4.8"
+  }
+}
