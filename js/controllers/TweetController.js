@@ -26,14 +26,14 @@ $scope.debates = [
         avatar: cameronAv,
         side: 'right',
         source: '',
-        message: 'I commend all councils who want to promote green energy. We have made that easier in our country through feed-in tarrifs.'
+        message: 'I commend all councils who want to promote green energy. We have made that easier in our country through feed-in tariffs.'
       },
       {
         politician: 'Jeremy Corbyn',
         avatar: corbynAv,
         side: 'left',
         source: '',
-        message: 'Do you agree with the Enegy Secretary that Britain is likely to miss its target of getting 15% of our energy from renewables by 2020?'
+        message: 'Do you agree with the Energy Secretary that Britain is likely to miss its target of getting 15% of our energy from renewables by 2020?'
       },
       {
         politician: 'David Cameron',
@@ -61,14 +61,14 @@ $scope.debates = [
         avatar: corbynAv,
         side: 'left',
         source: '',
-        message: 'Thousands of jobs have been lost recently in the solar industry due to cuts in feed-in tarrifs. Why do you want to throw all this away?'
+        message: 'Thousands of jobs have been lost recently in the solar industry due to cuts in feed-in tariffs. Why do you want to throw all this away?'
       },
       {
         politician: 'David Cameron',
         avatar: cameronAv,
         side: 'right',
         source: '',
-        message: 'The cost of manufacturing solar panels has plummeted so we need to support other aspects of solar power rather than feed-in tarrifs.'
+        message: 'The cost of manufacturing solar panels has plummeted so we need to support other aspects of solar power rather than feed-in tariffs.'
       },
       {
         politician: 'Jeremy Corbyn',
