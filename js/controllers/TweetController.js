@@ -11,6 +11,97 @@ $scope.debates = [
   { date: 'Select a date' },
 
   {
+    date: '25th November, 2015',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: '',
+        message: '55 Labour councils have committed to 100% green energy by 2050. Will the PM congratulate them and will the Tories follow?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: '',
+        message: 'I commend all councils who want to promote green energy. We have made that easier in our country through feed-in tarrifs.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: '',
+        message: 'Do you agree with the Enegy Secretary that Britain is likely to miss its target of getting 15% of our energy from renewables by 2020?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: '',
+        message: 'We have a strong record and are able to go into Paris talks as a leader. We will spend $9bn over 5 years to help other countries.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: '',
+        message: 'The gap between our 2020 target and our current share is the biggest in the EU due to the decisions your government has taken.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: '',
+        message: 'Not correct. We have trebled the use of wind power and are also building the first new nuclear power station in the UK for decades.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: '',
+        message: 'Thousands of jobs have been lost recently in the solar industry due to cuts in feed-in tarrifs. Why do you want to throw all this away?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: '',
+        message: 'The cost of manufacturing solar panels has plummeted so we need to support other aspects of solar power rather than feed-in tarrifs.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: '',
+        message: 'Can you explain why one third of women suffering from domestic abuse are being turned away by women\'s refuges in England?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: '',
+        message: 'We have put more money into refuges and have protected rape crisis centres. We have a good record and also help women to prosecute.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: '',
+        message: 'The closure of women\'s charity Eaves contravenes the government\'s signing of the 2012 Instanbul convention. When will you ratify this?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: '',
+        message: 'In the spending review today there will be more money for women\'s charities. We\'ve also done more on forced marriages and FGM.'
+      }
+    ]
+  },
+
+  {
     date: '18th November, 2015',
 
     tweets: [
