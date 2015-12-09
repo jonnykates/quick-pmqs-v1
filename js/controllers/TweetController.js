@@ -42,7 +42,7 @@ $scope.debates = [
         avatar: osborneAv,
         side: 'right',
         source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
-        message: 'Absolutely. Up to £5k will be made available to families. The last Labour government spent £1.5bn on flood defenses; we will be spending £2bn.'
+        message: 'Absolutely. Up to £5k will be made available to families. The last Labour government spent £1.5bn on flood defences; we will be spending £2bn.'
       },
       {
         politician: 'Angela Eagle',
