@@ -3,12 +3,105 @@ app.controller('TweetController', ['$scope', function($scope) {
 
 var corbynAv = 'img/corbyn-av.png';
 var cameronAv = 'img/cameron-av.png';
+var eagleAv = 'img/eagle-av.png';
+var osborneAv = 'img/osborne-av.png';
 
 $scope.debateSelector = {date: 'hideall'};
 
 $scope.debates = [
 
   { date: 'Select a date' },
+
+  {
+    date: '9th December, 2015',
+
+    tweets: [
+      {
+        politician: 'Angela Eagle',
+        avatar: eagleAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'After the 2013-14 floods, only 15% of people received compensation within a year. Does the Chancellor agree this cannot happen again?'
+      },
+      {
+        politician: 'George Osborne',
+        avatar: osborneAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'We\'re creating a £50m fund for families and businesses affected, which will be administered by local authorities to avoid the issues last time.'
+      },
+      {
+        politician: 'Angela Eagle',
+        avatar: eagleAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'In 2014, the PM said that \'money is no object in this relief effort\'. Will the same apply this time?'
+      },
+      {
+        politician: 'George Osborne',
+        avatar: osborneAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'Absolutely. Up to £5k will be made available to families. The last Labour government spent £1.5bn on flood defenses; we will be spending £2bn.'
+      },
+      {
+        politician: 'Angela Eagle',
+        avatar: eagleAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'The PM can\'t be with us today because he is on his seemingly endless European \'renegotiation tour\'. Can the Chancellor tell us how that is going?'
+      },
+      {
+        politician: 'George Osborne',
+        avatar: osborneAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'The PM is abroad fighting for a better deal for Britain, something that would never have happened under Labour.'
+      },
+      {
+        politician: 'Angela Eagle',
+        avatar: eagleAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'Many of your back benchers are unimpressed with how it is going. Is the PM aspiring to be the first post-EU PM?'
+      },
+      {
+        politician: 'George Osborne',
+        avatar: osborneAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'We\'re fighting to make sure Britain gets a good deal in Europe. In the end a referendum will decide.'
+      },
+      {
+        politician: 'Angela Eagle',
+        avatar: eagleAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'But surely uncertainty about the future of the UK in the EU is a destabalising factor, no?'
+      },
+      {
+        politician: 'George Osborne',
+        avatar: osborneAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'Since we announced the referendum, Britain has received the lion\'s share of investment into Europe, so I would disagree.'
+      },
+      {
+        politician: 'Angela Eagle',
+        avatar: eagleAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: '3 million UK jobs are linked to trade with the EU and half our exports go there. That\'s what you are putting at risk by flirting with Brexit.'
+      },
+      {
+        politician: 'George Osborne',
+        avatar: osborneAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/',
+        message: 'I thought the Labour party voted for the referendum? We have an economic plan that is delivering for Britain.'
+      }
+    ]
+  },
 
   {
     date: '25th November, 2015',
