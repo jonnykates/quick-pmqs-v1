@@ -13,6 +13,97 @@ $scope.debates = [
   { date: 'Select a date' },
 
   {
+    date: '16th December, 2015',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spnew67',
+        message: 'Can you guarantee there will be no crisis in the NHS this winter?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spmin9',
+        message: 'Average hospital stays have dropped by half a day since I became PM and we have put £12bn in to the NHS.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spnew68',
+        message: 'In 2011 you said you were in favour of transparency in the NHS. So why have you cancelled the publication of NHS data this winter?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spmin10',
+        message: 'The data you\'re talking about were never published before we came to power. We have improved efficiencies in the NHS.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spnew69',
+        message: 'There have been huge cuts in adult social care. Does the PM agree that cutting these services is a false economy?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spmin11',
+        message: 'We are increasing the money that councils can spend on social care through the 2% council tax precept.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spnew70',
+        message: 'The Health Foundation estimates there will be a £6bn shortfall in adult social care by 2020. How will the government meet that shortfall?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spmin12',
+        message: 'The Local Government Association has praised further flexibility on the setting of council tax and this will go someway to councils raising the money they need.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spnew71',
+        message: 'Adult social care falls within central government responsibilities. Meanwhile NHS Trusts predict a £2.2bn deficit this year.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spmin13',
+        message: 'We are spending £19bn more than Labour on the NHS. Local counciles decide how much to spend on adult social care and we\'re giving them the opportunity to raise more money.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spnew72',
+        message: 'People are struggling to study second degrees to train as nurses. Will you and the chancellor reverse the cuts to the nurses bursary scheme?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spmin14',
+        message: 'Constraints on the system currently mean two out of three people who want to train as nurses can\'t. We\'re changing that and already have more doctors and nurses since I became PM.'
+      },
+    ]
+  },
+
+  {
     date: '9th December, 2015',
 
     tweets: [
