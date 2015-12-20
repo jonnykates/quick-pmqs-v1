@@ -84,7 +84,7 @@ $scope.debates = [
         avatar: cameronAv,
         side: 'right',
         source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm151216/debtext/151216-0001.htm#151216-0001.htm_spmin13',
-        message: 'We are spending £19bn more than Labour on the NHS. Local counciles decide how much to spend on adult social care and we\'re giving them the opportunity to raise more money.'
+        message: 'We are spending £19bn more than Labour on the NHS. Local councils decide how much to spend on adult social care and we\'re giving them the opportunity to raise more money.'
       },
       {
         politician: 'Jeremy Corbyn',
