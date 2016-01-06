@@ -12,6 +12,97 @@ $scope.debates = [
 
   { date: 'Select a date' },
 
+    {
+    date: '6th January, 2016',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'After floods 2 years ago you said that there were "lessons to be learned and I will make sure they are learned." Were they?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'This time the military response was quicker and the Bellwin scheme was funded at 100%. I\'m sure there are more lessons to learn but we can do that because we have a strong economy.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'A £190m flood defence project in Leeds was cancelled in 2011 and continues to be scaled back. Will you guarantee that the full scheme will go ahead and protect Leeds from future flooding?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'The rivers flooded because it was the wettest December in 100 years. Flood defences have never been cancelled and funding continues to go up.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'What about the Leeds scheme? In 2014, Cumbria was denied funding for flood defences and the area has been flooded again. Was this a mistake?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'We are spending more on flood defence schemes.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Please answer my questions regarding Leeds and Cumbria. There have also been cuts in Yorkshire, which also suffered in December.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'We have increased and continue to increase spending on flood defences. We can do this because we have a strong economy.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'You still haven\'t answered on Leeds, Cumbria or Yorkshire schemes. Why was there insufficient pump capacity at the Foss barrier when this was alerted to the government in 2013?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'The Foss pump was about to be tendered for extra investment and that will now go ahead. We\'re also launching a flood insurance scheme.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Will you support our calls for cross-party coordination approach to flooding? Should emergency services be given a statutory duty to deal with floods?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'The emergency services have done an excellent job and have our backing. We will continue to increase the money we are spending on flood defences.'
+      }
+    ]
+  },
+
   {
     date: '16th December, 2015',
 
