@@ -12,7 +12,98 @@ $scope.debates = [
 
   { date: 'Select a date' },
 
-    {
+  {
+    date: '13th January, 2016',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spnew61',
+        message: 'The PM announced a £140m fund to transform 100 housing estates. This isn\'t nearly enough money.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spmin11',
+        message: 'We have doubled the housing budget; we will invest £8bn in housing; 700,000 homes have been built since I became PM.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spnew62',
+        message: 'Every estate you wish to bulldoze will include residents. Will those people be guaranteed homes on the rebuilt estates?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spmin12',
+        message: 'We want to improve estates that have held people back. We have done a great deal in the housing sector, with most of our initiatives being opposed by Labour.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spnew63',
+        message: 'You didn\'t answer my question. Will you guarantee that all existing tenants will be rehoused in new council housing in their current communities?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spmin13',
+        message: 'Work won\'t begin on the estates unless we get agreement from tenants. We are continually helping low income homeowners and communities to improve.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spnew64',
+        message: 'Your manifesto says that everyone who works hard should be able to own a home. Will the so-called national living wage enable someone to buy a starter home?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spmin15',
+        message: 'When I became PM, people needed £30k for a deposit. The schemes we\'ve introduced means that\'s down to £10k, so yes, I think this is affordable.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spnew66',
+        message: 'Rather than building more affordable homes, aren\'t you simply re-branding more homes as affordable? Hasn\'t home ownership fallen since you became PM?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spmin16',
+        message: 'Buying a home is a challenge. Help to Buy and Help to Save make it easier; both of which Labour opposed.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spnew69',
+        message: 'If the current bill passes, ageing council tenants looking to downsize will have to sign a new tenancy agreement. If they stay, they face the bedroom tax. What is your advice?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160113/debtext/160113-0001.htm#160113-0001.htm_spmin17',
+        message: 'I would say that we are cutting social rents so she will pay less rent. Also pensioners don\'t pay the spare room subsidy.'
+      }
+    ]
+  },
+
+  {
     date: '6th January, 2016',
 
     tweets: [
