@@ -13,6 +13,188 @@ $scope.debates = [
   { date: 'Select a date' },
 
   {
+    date: '27th January, 2016',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'Experts have suggested that Google is paying an effective tax rate on its UK profits of around 3%. Does the Prime Minister dispute that figure?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'I do dispute the figures. No government has done more than this one to crack down on tax evasion and tax avoidance.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'We\'ve been getting mixed messages from your party on whether this payment by Google is a success or not. What exactly is your position?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'We\'ve put in place the diverted profits tax. They will pay more tax than ever under Labour, when the tax rate for Google was 0%.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'Jeff asks, \'As a working man of over 30 years, can the PM tell me if there\'s a scheme I can join to pay the same rate of tax as Google?\''
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'I would say to Jeff that his taxes are coming down under this government, whilst Google\'s are going up.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'Many people sending in their tax returns this week will wonder why there is one rule for big multinational companies and another for small businesses and self-employed workers?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'HMRC\'s work is investigated by the National Audit Office, who said that the settlements it had reached were fair.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'The Court of Appeal has ruled that the bedroom tax is discriminatory. Will you now abandon this policy, which has been ruled to be illegal?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'It\'s unfair to subsidise spare rooms in the social sector if we do not subsidise them in the private sector where people are paying housing benefit.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'The UN claim that coalition forces in Yemen have conducted airstrikes against civilians. Will the PM agree to launch an immediate inquiry and review the arms export licenses to Saudi Arabia?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/114/',
+        message: 'We have very strict arms export rules. We are not involved with the Saudi-led coalition. I will look at the report as I look at all other reports. We want stability in the Yemen.'
+      }
+    ]
+  },
+
+  {
+    date: '20th January, 2016',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spnew63',
+        message: 'Where in your election manifesto did you put your plan to abolish maintenance grants for all students?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spmin11',
+        message: 'In our manifesto, we said that we would cut the deficit and uncap student numbers, and we have done both.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spnew66',
+        message: 'Liam is training to be a maths teacher and will now finish his course with debts in excess of £50,000; double what his annual salary will be. Why is he being put into such debt?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spmin12',
+        message: 'He won\'t pay back anything until he is earning over £21k and won\'t start paying back in full until he is earning £35k. Our policy puts more money in the hands of students.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spnew67',
+        message: 'When you trebled tuition fees in 2010, you said you would increase maintenance grants; which you\'re now scrapping. Why are you abolishing these grants?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spmin13',
+        message: 'We\'re doing it to uncap university places so that anyone who wants to go to university can. The system we have is working and the numbers prove it.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spnew68',
+        message: 'The repayments that student nurses will now have to make when qualified amount to an effective pay cut of £900. Why are you punishing nurses?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spmin14',
+        message: 'Two out of three people who want to become a nurse can\'t because of the bursary system. By introducing the loans, we will train more nurses and bring in fewer from overseas.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spnew69',
+        message: 'Vicky from York thinks otherwise. She says she wouldn\'t have been able to train as a mental health nurse without the bursaries and wouldn\'t have taken on further debts.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spmin15',
+        message: 'But two out of three Vicky\'s who turn up wanting to be nurses are sent away by our current system. Let us fund more British nurses and improve the NHS.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spnew70',
+        message: 'You\'re asking nurses to fund themselves though. At a time where 9 out of 10 hospitals have a nurse shortage, won\'t your plans make it worse?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160120/debtext/160120-0001.htm#160120-0001.htm_spmin16',
+        message: 'We\'ll see 10,000 more nurse degree places as a result of this policy.'
+      }
+    ]
+  },
+
+  {
     date: '13th January, 2016',
 
     tweets: [
