@@ -13,6 +13,188 @@ $scope.debates = [
   { date: 'Select a date' },
 
   {
+    date: '10th February 2016',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spnew58',
+        message: 'What action are you taking to help young people to find affordable places to live?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spmin10',
+        message: 'We have launched the help-to-save-ISAs and people can earn £11,000 before they pay any taxes. Housing association tenants can buy their home and there\'s also Help to Buy.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spnew59',
+        message: 'You said that council homes sold under the right to buy would be replaced like for like. How is that policy panning out?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spmin11',
+        message: 'We\'ve said that two homes are built for every council home in London that is sold.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spnew60',
+        message: 'Just one home has been built for every eight that have been sold under your government. Housing cuts are also putting vulnerable people at risk.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spmin12',
+        message: 'We have an £8bn housing budget to build 400,000 affordable homes. We cut housing benefit as it was out of control.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spnew61',
+        message: 'Housing providers estimate that nearly half of all supported housing schemes will close. Will you stop this cut which will destroy the supported housing sector?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spmin12',
+        message: 'We\'re actually reducing social rents by 1% every year for 4 years. We\'re also going to make it so that we\'re not paying housing benefit to social tenants way above what we would pay to private sector tenants.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spnew62',
+        message: 'Shelter say the bill will lose 180,000 affordable homes. Tory back-benchers voted against an amendment for homes to be fit for human habitation. How many privately rented homes do not meet hte decent homes standard?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spmin14',
+        message: 'We\'ve built more council houses in the last 5 years than Labour did in 13 years. Our housing budget is £8bn and that will provide 400,000 affordable new homes.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spnew63',
+        message: 'One third of privately rented homes do not meet the decent homes standard. People are struggling and homelessness is rising. When is the PM going to realise there is a housing crisis in Britain?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.publications.parliament.uk/pa/cm201516/cmhansrd/cm160210/debtext/160210-0001.htm#160210-0001.htm_spmin15',
+        message: 'Homelessness today is less than half what it was at its peak under the last Labour government. We\'re investing in homes because we have a strong economy.'
+      }
+    ]
+  },
+
+  {
+    date: '3rd February 2016',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'There has been a 36% increase in the number of people waiting more than 6 weeks for cancer diagnostic tests. Can you do something to bring that down?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Compared to 2010, there\'s been a 71% increase in the number of patients being seen with suspected cancers and 17% increase in patients being treated for cancer.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'The government\'s independent cancer taskforce reported last year that we have a shortage of radiologists. Why are we cutting radiographer training places by 5%?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'We are opening up nurse training to an extra 10,000 nurses and spending £19bn more on the NHS. There are 15% more radiographers now than when I became Prime Minister.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'You\'re proposing to cut £200m from the public health budget which funds programmes such as anti-obesity. This will surely lead to an increase in cancer?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Under this government we have made real advances including smoking rules in cars and plain paper packaging.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Can you tell us the last time the NHS target for starting cancer treatment within the 62 days required was actually met?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Of our 3 big targets, we\'re meeting 2: see a specialist within 2 weeks and first treatment within 31 days of diagnosis. We are currently falling short of the 62 days target.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Cuts to employment and support allowance will also hit 3,200 people with cancer who are too unwell to work. Will you uphold the Lords\' rejection of these proposed cuts?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'If someone has cancer and cannot work, they continue to get the welfare payments they need through the ESA.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'But you are cutting the amount of ESA. Macmillan, Rethink Mental Illness and Parkinson\'s UK are all opposing this cut.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'If you are an existing claimant, your welfare is not changing. In future, we should help those who are able to get back to work to do so.'
+      }
+    ]
+  },
+
+  {
     date: '27th January, 2016',
 
     tweets: [
