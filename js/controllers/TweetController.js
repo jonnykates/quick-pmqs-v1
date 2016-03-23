@@ -13,6 +13,97 @@ $scope.debates = [
   { date: 'Select a date' },
 
   {
+    date: '24th February 2016',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: '9 out of 10 junior doctors already work beyond their contract. What do you think of the Health Secretary\'s veto of a deal?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'He didn\'t veto a deal. No junior doctor\'s will receive a pay cut - in fact, the contract has tougher safeguards to make sure it reduces the hours worked.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'This whole dispute is based on misrepresented research about weekend mortalities. Are you being rash and misleading with the research?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'The research in fact understates the statistics. There are 11,000 excess deaths at the weekends rather than the claimed 6,000.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Is it not time to apologise for misleading statements and reach a settlement with junior doctors, as Governments in Scotland and Wales have done?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Scotland and Wales aren\'t trying to create a seven-day NHS. We\'re putting £10bn more into the NHS and have 10,000 more doctors and 10,000 more nurses.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'We all want a strong NHS but the Government is failing to get on top of agency staff costs, which now amounts to £4bn. Your own local NHS service has spent £30m on agency staff.'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: '*Slagging off a back bench Labour heckler. No response to question.*'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'We\'re nearing the end of the financial year and the NHS deficit is £2.26bn. What will the deficit be by the end of next month?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Deficits are coming down because we\'re clamping down on agency fees. We are investing in excess of our pledges for the NHS.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'There is already 7 day emergency service. How does increasing elective work improve safety at the weekend? Will you publish the DoH\'s analysis of the real cost of a 7-day NHS?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.parliament.uk/business/publications/hansard/commons/todays-commons-debates/read/unknown/7/',
+        message: 'Hospitals such as the Salford Royal already operate on a 7-day basis within budget. We don\'t just get ill Monday to Friday. We\'re funding a world-class NHS.'
+      }
+    ]
+  },
+
+  {
     date: '10th February 2016',
 
     tweets: [
