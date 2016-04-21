@@ -13,6 +13,97 @@ $scope.debates = [
   { date: 'Select a date' },
 
   {
+    date: '20th April 2016',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g911.1',
+        message: 'Why is the government forcing all schools to become academies?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g911.2',
+        message: 'We want schools to be run by headteachers, not bureaucrats; and evidence shows that academies perform better.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g911.3',
+        message: 'The Education Committee - and so many others - disagree with you. Why are you ignoring their evidence?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g911.4',
+        message: 'One example is Downhills Primary, near your constituency. It was in special measures and taken over by an academy, and two years later it was a good school.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g912.0',
+        message: 'Why should good school leaders focus their time not on educating children but on changes imposed from above?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g912.1',
+        message: 'Good schools have nothing to fear, but instead a huge amount to gain from becoming academies.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g912.2',
+        message: 'Do you at least understand the anger that so many feel because a system they don\'t want is being imposed on them?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g912.3',
+        message: 'There will always be people who want to keep things exactly as they are, but the benefits of academies are clear.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g913.0',
+        message: 'I spoke with some year 6 pupils last week who themselves said that they love their school the way it is. What do you say to these pupils?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g913.1',
+        message: 'We need to reform to make good schools even better and to help raise the aspiration of all.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g913.2',
+        message: 'School spending is expected to fall by 7% in real terms in the next 4 years. So why are you proposing to spend £1.3bn on top-down reorganisation that wasn\'t in your manifesto?'
+      },
+      {
+        politician: 'David Cameron',
+        avatar: cameronAv,
+        side: 'right',
+        source: 'http://www.theyworkforyou.com/debates/?id=2016-04-20a.910.8#g913.3',
+        message: 'We\'ve protected spending per pupil through this parliament and the last. We\'re spending £7bn on more school places.'
+      },
+    ]
+  },
+
+  {
     date: '24th February 2016',
 
     tweets: [
