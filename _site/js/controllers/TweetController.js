@@ -5,12 +5,104 @@ var corbynAv = 'img/corbyn-av.png';
 var cameronAv = 'img/cameron-av.png';
 var eagleAv = 'img/eagle-av.png';
 var osborneAv = 'img/osborne-av.png';
+var mayAv = 'img/may-av.png';
 
 $scope.debateSelector = {date: 'hideall'};
 
 $scope.debates = [
 
   { date: 'Select a date' },
+
+  {
+    date: '20th July 2016',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g817.0',
+        message: 'Will you now proceed with a full public inquiry into the terrible events at Orgreave?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g817.1',
+        message: 'The Home Secretary will be responding on that matter this afternoon.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g817.2',
+        message: 'What is your target for home ownership among young people?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g817.3',
+        message: 'This Government are putting more into building more homes to ensure that young people can get on the housing ladder'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g818.0',
+        message: 'Before appointing your new Foreign Secretary [Boris Johnson], did you challenge him on his description of black people as "piccaninnies"?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g818.1',
+        message: 'As Home Secretary, I dealt with the issue of stop and search based on the colour of someone\'s skin.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g818.2',
+        message: 'Six years of austerity have failed. Is there a new long-term economic plan?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g818.3',
+        message: 'We haven\'t abandoned our intention to move to surplus, but we won\'t target it in this Parliament. It\'s important that we live within our means.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g818.4',
+        message: 'Will you scrap employment tribunal fees, repeal the Trade Union Act and ban zero-hours contracts in order to give better job security?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g819.0',
+        message: 'This Government has raised the income tax threshold and have made sure we have more well-paid jobs in this country.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g819.1',
+        message: 'Two thirds of children living in poverty have at least one parent in work. What are you going to do for those families?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2016-07-20a.816.5#g819.2',
+        message: 'The answer isn\'t uncapped welfare. If we have a strong economy, then everyone can benefit from the nation\'s wealth.'
+      }
+    ]
+  },
 
   {
     date: '20th April 2016',
