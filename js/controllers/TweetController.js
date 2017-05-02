@@ -13,6 +13,97 @@ $scope.debates = [
 
   { date: 'Select a date' },
 
+    {
+    date: '26th April 2017',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1100.6',
+        message: 'People\'s wages have not kept up with the increasing cost of living in the past 5 years. Where is their share in the stronger economy?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1101.0',
+        message: 'Half of NHS staff will see a pay increase of 4%, which is only possible under the strong and stable leadership of the Conservatives.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1101.1',
+        message: 'Do we not need a housing strategy that deals with the problem of those in their 20s not being able to afford to leave home?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1101.2',
+        message: 'Under Labour, house building starts fell by 45%. We have built more than twice as many council houses than under the last Labour Government.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1101.3',
+        message: 'Do you recognise that funding for each pupil in our primary schools is being cut?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1102.0',
+        message: 'We have protected school budgets and have delivered 1.8m more good and outstanding school places.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1102.1',
+        message: 'Many women born in the 1950s will now have to work until they are 66 with no notification of this change. What can be done to help the WASPI women?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1102.2',
+        message: 'Extra funding has been made available and we have ensured that there is a limit to the period of time that is affected.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1102.3',
+        message: 'Should people be worried about the future of our NHS so long as this Government remain in office?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1103.0',
+        message: 'The NHS is treating more patients than ever before. We have more doctors, nurses, midwives, GPs and record levels of funding.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1103.1',
+        message: 'The Conservatives look after the richest, not the rest. Labour will stand up for all of our people at this election.'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-04-26a.1100.1#g1103.2',
+        message: 'A vote for the Conservatives will strengthen our Brexit negotiations, strengthen our economy, and is a vote for strong leadership.'
+      }
+    ]
+  },
+
   {
     date: '20th July 2016',
 
