@@ -13,7 +13,98 @@ $scope.debates = [
 
   { date: 'Select a date' },
 
-    {
+  {
+    date: '5th July 2017',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1158.2',
+        message: 'Can you confirm whether the 1% public sector pay cap will remain in place for public servants until 2020?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1158.3',
+        message: 'We continue to consider reports from public pay review bodies but we need to live within our means.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1159.0',
+        message: 'The teaching profession is being held together by people\'s dedication; which is running out. The pay cap is recklessly exploiting the good will of public servants.'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1159.3',
+        message: 'We have more teachers and nurses now than we did in 2010. We inherited a big deficit which we have now reduced by three quarters.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1159.4',
+        message: 'You recently found £1bn to allow yourself to stay in government. Why can\'t you find that money to keep nurses and teachers in their jobs?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1160.0',
+        message: 'If we don\'t deal with the deficity, spending on public services gets cut dramatically. That does not help nurses or patients.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1160.1',
+        message: 'Across the economy wages are growing slower than inflation. What does that tell us about seven years of a Conservative government?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1160.2',
+        message: 'Over seven years we have seen record numbers of people in employment, a national living wage, increases in personal tax allowance. That is good management of the economy.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1160.5',
+        message: 'People in their 20s are the first generation to earn less than their parents. What do you offer young people of this country?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1161.1',
+        message: 'We offer more jobs and more homes whilst not bankrupting our economy.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1161.2',
+        message: 'The low-pay epidemic is a threat to our economic stability. Will you offer some real help to those who deserve better rather than greater inequality?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.theyworkforyou.com/debates/?id=2017-07-05a.1161.3',
+        message: 'The proportion of people in poverty is at record lows and we\'ve introduced a national living wage. We\'ve cut taxes and ensured there are jobs.'
+      }
+    ]
+  },
+
+  {
     date: '26th April 2017',
 
     tweets: [
