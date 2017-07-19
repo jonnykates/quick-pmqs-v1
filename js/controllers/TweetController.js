@@ -13,6 +13,97 @@ $scope.debates = [
 
   { date: 'Select a date' },
 
+    {
+    date: '19th July 2017',
+
+    tweets: [
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'The chancellor said this week that public service workers were over-paid. Was he talking about your own ministers?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'We\'ve taken millions of people out of paying income tax and have introduced a national living wage. You only get that with a strong economy.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'Nurses have had a pay freeze for 5 years. Only her dedication for her vocation keeps her going. Why is this happening?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'We\'ve had to make sacrifices because we inherited a huge deficit. We don\'t promise people more money without saying we can pay it.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'Does the Prime Minister agree that you cannot have a strong economy when 6 million people are earning less than the living wage?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'You can\'t have a strong economy when you adopt policies of a trillion pounds of extra spending. We have provided more jobs and more investment.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: '55% of people in poverty are in working households. Low pay is holding people back. It\'s a threat to our weakening economy.'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'Over the last 7 years we\'ve seen more than 3 million jobs created. The introduction of the living wage was the biggest pay increase ever.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'Life expectancy has stalled for the first time in 100 years. The IMF says child poverty will rise to 5m by 2022. Your talk of a strong economy doesn\'t match the reality.'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'Inequality is down, life expectancy continues to rise. Higher taxes, fewer jobs and living beyond our means is not the way to govern.'
+      },
+      {
+        politician: 'Jeremy Corbyn',
+        avatar: corbynAv,
+        side: 'left',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'Is it true that this divided government is unable to give leadership now to deal with these issues?'
+      },
+      {
+        politician: 'Theresa May',
+        avatar: mayAv,
+        side: 'right',
+        source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
+        message: 'Our record of successes is something to be proud of and that\'s only something that you get with a Conservative government.'
+      },
+    ]
+  },
+
   {
     date: '5th July 2017',
 
