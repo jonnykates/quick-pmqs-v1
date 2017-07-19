@@ -100,7 +100,7 @@ $scope.debates = [
         side: 'right',
         source: 'https://www.youtube.com/watch?v=243YZJXeUO4',
         message: 'Our record of successes is something to be proud of and that\'s only something that you get with a Conservative government.'
-      },
+      }
     ]
   },
 
