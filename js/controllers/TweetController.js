@@ -14,6 +14,97 @@ $scope.debates = [
   { date: 'Select a date' },
 
     {
+      date: '19th July 2017',
+
+      tweets: [
+        {
+          politician: 'Jeremy Corbyn',
+          avatar: corbynAv,
+          side: 'left',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g831.4',
+          message: 'Do you think its right that the richest get tax giveaways whilst disabled people have been hit hardest by cuts?'
+        },
+        {
+          politician: 'Theresa May',
+          avatar: mayAv,
+          side: 'right',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g832.0',
+          message: 'During our government, more disabled people have got work and we have increased the support being given to disabled people.'
+        },
+        {
+          politician: 'Jeremy Corbyn',
+          avatar: corbynAv,
+          side: 'left',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g832.1',
+          message: 'There\'s been some confusion on the public sector pay cap. Can you tell us what the current position is?'
+        },
+        {
+          politician: 'Theresa May',
+          avatar: mayAv,
+          side: 'right',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g832.2',
+          message: 'We have accepted the suggestions from the recent independent pay review bodies. We\'ll continue to look at public sector pay towards the budget.'
+        },
+        {
+          politician: 'Jeremy Corbyn',
+          avatar: corbynAv,
+          side: 'left',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g833.0',
+          message: 'Anything less than inflation is a pay cut. And they are being funded with cuts to services anyway.'
+        },
+        {
+          politician: 'Theresa May',
+          avatar: mayAv,
+          side: 'right',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g833.1',
+          message: 'A new police officer in 2010 has seen an increase in their pay of over £9,000 - a real-terms increase of 32%.'
+        },
+        {
+          politician: 'Jeremy Corbyn',
+          avatar: corbynAv,
+          side: 'left',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g833.4',
+          message: 'Tory MPs are telling each other that \'we\'ve never had it so good\'. What has happened to an average person\'s bank account in the last 7 years?'
+        },
+        {
+          politician: 'Theresa May',
+          avatar: mayAv,
+          side: 'right',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g833.5',
+          message: 'You seem to be ignoring figures publish today that show unemployment at its lowest levels since the mid-1970s.'
+        },
+        {
+          politician: 'Jeremy Corbyn',
+          avatar: corbynAv,
+          side: 'left',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g834.0',
+          message: 'Except more people in work are in povery than ever before. Young people have crippling debts; will you vote against another hike in student fees?'
+        },
+        {
+          politician: 'Theresa May',
+          avatar: mayAv,
+          side: 'right',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g834.4',
+          message: 'You promised students you would deal with their debt and you have let them down. Only the Conservatives deliver for Britain.'
+        },
+        {
+          politician: 'Jeremy Corbyn',
+          avatar: corbynAv,
+          side: 'left',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g834.5',
+          message: 'By the end of this Parliament, 5 million children in this country will be in poverty. Isn\'t our economy at breaking point, but for many people it is already broken?'
+        },
+        {
+          politician: 'Theresa May',
+          avatar: mayAv,
+          side: 'right',
+          source: 'https://www.theyworkforyou.com/debates/?id=2017-09-13a.830.9#g835.0',
+          message: 'More people are in work than ever before. The Labour party destroyed our economy last time; we had to sort it out.'
+        },
+      ]
+    },
+
+    {
     date: '19th July 2017',
 
     tweets: [
