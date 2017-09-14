@@ -14,7 +14,7 @@ $scope.debates = [
   { date: 'Select a date' },
 
     {
-      date: '19th July 2017',
+      date: '13th September 2017',
 
       tweets: [
         {
